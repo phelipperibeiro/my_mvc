@@ -1,0 +1,21 @@
+{
+	"name": "flp/mvc",
+	"require":{
+		"php": ">=5.3"
+	},
+	"authors": [
+		{
+			"name": "Felipe Ribeiro",
+			"email": "phelipperibeiro@hotmail.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"engine": "vendor",
+			"app": "/"
+		}
+	},
+	"config": {
+		"bin-dir": "bin"
+	}
+}
